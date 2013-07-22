@@ -1,6 +1,12 @@
 netlogo-cluster-viewer
 ======================
 
+This NetLogo 3D model can be used to view data clusters in 3D renderings of datasets and arbitrary latent representations. 
+
+## Requirements
+* Netlogo (3D): free to download at http://ccl.northwestern.edu/netlogo/
+
+
 # Current features: 
 * reads a file line-by-line and displays points; each line should containt: CLASS X Y Z, where:
   * CLASS: is a positive integer encoding  a class label, or -1 for n/a.
