@@ -12,9 +12,9 @@ links-own [strength]
 to setup   
   clear-all
   reset-ticks
+  set-default-shape turtles "circle"
   reset-points
   reset-view
-  set-default-shape turtles "circle"
 end
 
 to reset-points
@@ -311,7 +311,7 @@ This NetLogo 3D model can be used to view data clusters in 3D renderings of data
 ## Current features: 
 * reads a file line-by-line and displays points; each line should containt: CLASS X Y Z, where:
   * CLASS: is a positive integer encoding  a class label, or -1 for n/a.
-  * X, Y, Z: are coordinats in 3D space.
+  * X, Y, Z: are coordinates in 3D space.
 
 
 ## Planned features: 
